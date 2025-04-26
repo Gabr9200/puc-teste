@@ -19,8 +19,6 @@ async def test_funcaoteste():
     assert result == {"teste": True, "num_aleatorio": 12345}
 
 
-
-
 @pytest.mark.asyncio
 async def test_update_estudante_negativo():
     result = await update_estudante (-5)
